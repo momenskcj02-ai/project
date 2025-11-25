@@ -43,3 +43,4 @@ join users u on u.Uid = e.TchID
 where e.TchID = ? """
 params = (1,)
 print("result of query : ",db.query(query,params))
+# create
